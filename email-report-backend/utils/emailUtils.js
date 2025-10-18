@@ -14,8 +14,6 @@ export const getTestInboxes = () => {
   return inboxes.filter(box => !!box.address).slice(0, 5);
 };
 
-import nodemailer from 'nodemailer';
-
 export const sendReportEmail = async ({ to, subject, html, text }) => {
   try {
     // Create transporter for Mailgun
