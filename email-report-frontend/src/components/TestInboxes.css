@@ -1,0 +1,33 @@
+.inbox-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  padding: 20px 0;
+}
+
+.inbox-card {
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.inbox-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+.inbox-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 6px;
+}
+
+.inbox-address {
+  font-size: 13px;
+  color: #64748b;
+  word-break: break-all;
+}

@@ -1,0 +1,32 @@
+# Global
+node_modules/
+.env
+.env.local
+*.log
+.DS_Store
+
+# Frontend (React)
+/email-report-frontend/node_modules
+/email-report-frontend/.env
+/email-report-frontend/.env.local
+/email-report-frontend/build
+/email-report-frontend/.parcel-cache
+/email-report-frontend/.vite
+/email-report-frontend/dist
+/email-report-frontend/coverage
+/email-report-frontend/.eslintcache
+
+# Backend (Node/Express)
+/email-report-backend/node_modules
+/email-report-backend/.env
+/email-report-backend/.env.local
+/email-report-backend/logs
+/email-report-backend/uploads
+/email-report-backend/.cache
+/email-report-backend/.vscode
+
+# OS and IDE files
+.vscode/
+.idea/
+*.swp
+Thumbs.db
